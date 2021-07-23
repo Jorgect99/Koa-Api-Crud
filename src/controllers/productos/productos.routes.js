@@ -7,8 +7,8 @@ module.exports = Router => {
 
     router.get('/', controller.getProducts); 
     router.get('/:id', controller.getProduct); 
-    router.post('/', controller.addProduct, controller.getProduct); 
-    router.put('/:id', controller.editProduct, controller.getProduct);  
+    router.post('/', controller.addProduct); 
+    router.put('/:id', controller.editProduct);  
     router.delete('/:id', controller.deleteProduct);
 
     return router;

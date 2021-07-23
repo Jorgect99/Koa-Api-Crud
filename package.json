@@ -12,9 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^10.1.0",
+    "bcryptjs": "^2.4.3",
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
     "koa-respond": "^2.1.0",
+    "koa-validate": "^1.0.7",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5",
     "uuidv4": "^6.2.11"
   },
   "devDependencies": {
